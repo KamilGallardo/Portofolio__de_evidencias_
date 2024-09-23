@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 1 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Introduccion a Ing. Mecatrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Arduino básico Salidas</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/Kamil.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Kamil Gallardo Toledo</div>
+                                <div class="text-muted">Mecatrónica</div>
+                            </div>
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/Emilio.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Emilio Harold Gallegos García</div>
+                                <div class="text-muted">Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Agosto 29, 2024</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Tinkercad</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="900px" src="img/portada_ard0.png" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En esta práctica se desarrolló un circuito empleando una placa de Arduino y el código proporcionado por el profesor en Tinkercad.</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">El objetivo de la práctica es apreder a usar Arduino.</p>
+
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">Los materiales empleados para desarrollar la práctica son:</p>
+                        <p class="fs-6 mb-4">Protoboard</p>
+                        <p class="fs-6 mb-4">Placa de Arduino</p>
+                        <p class="fs-6 mb-4">Cátodo Display de 7 segmentos</p>
+                        <p class="fs-6 mb-4">LEDS Rojos</p>
+                        <p class="fs-6 mb-4">Resistencia de 330</p>
+                        <p class="fs-6 mb-4">Resistencias de 1k</p>
+                        <p class="fs-6 mb-4">Jumpers macho - macho</p>
+
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4"> En electrónica se cuenta con una basta cantidad de materiales para poder crear circuitos, entre la inmensa cantidad de componentes, se emplearán solo los componentes descritos en la sección de materiales.  </p>
+                        <p class="fs-6 mb-4"> Arduino es una plataforma de creación de electrónica de código abierto, la cual está basada en hardware y software libre, flexible y fácil de utilizar para los creadores y desarrolladores. Esta plataforma permite crear diferentes tipos de microordenadores de una sola placa a los que la comunidad de creadores puede darles diferentes tipos de uso [1]. El display de 7 segmentos es un dispositivo optoelectrónico que permite visualizar números del 0 al 9 [2]. </p>
+
+                            <p id="construccion">
+                            <h2 class="fw-bolder mb-4 mt-5 fs-5">- Construcción -</h2>
+                            <p class="fs-6 mb-4"> El proceso de elaboración fue sencillo, debido a que el profesor nos proporcionó el código que sería transferido a la placa de Arduino, nuestro trabajo era comprender los códigos y hacer que funcionaran sobre una protoboard.</p>
+                           
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Circuitos -</h2>
+                        <p> Circuito 0.0</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded" width="80%" src="img/0.0.png" alt="..." />
+                            <figure class="mb-4" align="center"><video width="40%"  controls muted>
+                                <source src="video/0.0.mp4" type="video/mp4">
+                            
+                            </video>
+                        </p> Este código sirve para hacer parpadear un LED, que es el LED integrado en el Arduino.</figure><br><br>
+
+                        <p> Circuito 0.1</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded" width="80%" src="img/0.1.png" alt="..." />
+                            <figure class="mb-4" align="center"><video width="80%"  controls muted>
+                                <source src="video/0.1.mp4" type="video/mp4">
+                            
+                            </video>
+                        </p> El código indica que el Ardiuno tiene que hacer que un LED conectado al pin 13 se quede encendido.</figure>
+
+                        <p> Circuito 0.2</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded" width="80%" src="img/0.2.png" alt="..." />
+                            <figure class="mb-4" align="center"><video width="80%"  controls muted>
+                                <source src="video/0.2.mp4" type="video/mp4">
+                            
+                            </video>
+                        </p> El código indica que el pin 13 debe mantenerse en estado LOW, es decir, apagado.</figure>
+
+                        <p> Circuito 0.3</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded" width="80%" src="img/0.1.png" alt="..." />
+                            <figure class="mb-4" align="center"><video width="80%"  controls muted>
+                                <source src="video/0.3.mp4" type="video/mp4">
+                            
+                            </video>
+                        </p> El código indica que el pin 13 debe quedarse prendido.</figure>
+
+                        <p> Circuito 0.4</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded" width="80%" src="img/0.4.png" alt="..." />
+                            <figure class="mb-4" align="center"><video width="80%"  controls muted>
+                                <source src="video/0.4.mp4" type="video/mp4">
+                            
+                            </video>
+                        </p> El código indica que el pin 13 debe prender y apagar, con un led conectado directamente a la placa.</figure>
+
+                        <p> Circuito 0.5</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded" width="80%" src="img/0.5-0.6.png" alt="..." />
+                            <figure class="mb-4" align="center"><video width="40%"  controls muted>
+                                <source src="video/0.5.mp4" type="video/mp4">
+                            
+                            </video>
+                        </p> El código indica que el pin 13 debe prender y apagar un led en una protoboard.</figure>
+
+                        <p> Circuito 0.6</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded" width="80%" src="img/0.5-0.6.png" alt="..." />
+                            <figure class="mb-4" align="center"><video width="40%"  controls muted>
+                                <source src="video/0.6.mp4" type="video/mp4">
+                            
+                            </video>
+                        </p> El código indica que el pin 13 debe prender y apagar dos leds en una protoboard.</figure>
+
+                        <p> Circuito 0.7</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded" width="80%" src="img/0.7.png" alt="..." />
+                            <figure class="mb-4" align="center"><video width="40%"  controls muted>
+                                <source src="video/0.7.mp4" type="video/mp4">
+                            
+                            </video>
+                        </p> El código debe prender y apagar un led, posteriormente, prender y apagar el segundo led.</figure>
+
+                        <p> Circuito 0.8</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded" width="80%" src="img/0.8.png" alt="..." />
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded" width="40%" src="video/0.8.jpeg" alt="..." />
+  
+                        </p> El código indica que se deben prender 2 segmentos del Display de 7 segmentos.</figure>
+
+                        <p> Circuito 0.9</p>
+                        <figure class="mb-4" align="center"><img class="img-fluid rounded" width="40%" src="img/0.9.png" alt="..." />
+                            <figure class="mb-4" align="center"><video width="40%"  controls muted>
+                                <source src="video/0.9.mp4" type="video/mp4">
+                            
+                            </video>
+                        </p> El código debe proyectar el número 0, 1 y 2 en el Display de 7 segmentos.</figure>
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Se cumplió con el objetivo de la práctica, el cual era aprender a usar Arduino. </p>
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">Fernández, Y. (Septiembre 23, 2022). Qué es Arduino, cómo funciona y qué puedes hacer con uno. https://www.xataka.com/basics/que-arduino-como-funciona-que-puedes-hacer-uno</p>
+                        <p class="fs-6 mb-4">Transtronix. (S.F.). Display 7 segmentos cátodo común. https://transtronix.com.mx/productos/display-7-segmentos-catodo-comun/</p>
+                        
+                        <p id="descargables">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Descargables -</h2>
+                        <p class="fs-6 mb-4">Descargar código : <a href="files/codigos/0_ejemplo_blink1.ino">0</a> </p>
+                        <p class="fs-6 mb-4">Descargar código : <a href="files/codigos/1_salida_digital_high1.ino">1</a> </p>
+                        <p class="fs-6 mb-4">Descargar código : <a href="files/codigos/2_salida_digital_low1.ino">2</a> </p>
+                        <p class="fs-6 mb-4">Descargar código : <a href="files/codigos/3_salida_digital_delay1.ino">3</a> </p>
+                        <p class="fs-6 mb-4">Descargar código : <a href="files/codigos/4_salida_digital_led1.ino">4</a> </p>
+                        <p class="fs-6 mb-4">Descargar código : <a href="files/codigos/5_salida_digital_protoboard1.ino">5</a> </p>
+                        <p class="fs-6 mb-4">Descargar código : <a href="files/codigos/6_salida_digital_leds_i1.ino">6</a> </p>
+                        <p class="fs-6 mb-4">Descargar código : <a href="files/codigos/7_salida_digital_leds_ii1.ino">7</a> </p>
+                        <p class="fs-6 mb-4">Descargar código : <a href="files/codigos/8_salida_digital_display_7_segmentos1.ino">8</a> </p>
+                        <p class="fs-6 mb-4">Descargar código : <a href="files/codigos/9_salida_digital_display_7_segmentos1.ino">9</a> </p>
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
